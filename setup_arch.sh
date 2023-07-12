@@ -25,3 +25,15 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ name 'Hibernate'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ command 'systemctl hibernate'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Control><Super>h'
+
+# update packages
+sudo pacman -Syu
+
+# install packages
+sudo pacman -S --noconfirm neovim git zsh zsh-theme-powerlevel10k ttf-meslo-nerd-font-powerlevel10k
+
+# install regular Software
+sudo pacman -S --noconfirm firefox thunderbird gimp inkscape
+
+# kickstart neovim
+git clone https://github.com/nvim-lua/kickstart.nvim.git ~/.config/nvim && nvim ~/.config/nvim/init.lua
