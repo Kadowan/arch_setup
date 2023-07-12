@@ -9,6 +9,7 @@ Gnome Shortcuts for window movement and close have to be ajusted. Also add Short
 - change Window: alt+tab
 - open Calculator: Super+r
 - gnome-terminal: Super+t
+- shutdown: ctrl+Super+s
 
 # Packages
 Packages to install
