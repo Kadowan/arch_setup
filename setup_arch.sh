@@ -26,6 +26,9 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ command 'systemctl hibernate'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Control><Super>h'
 
+# gnome settings
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,close"
+
 # update packages
 sudo pacman -Syu
 
