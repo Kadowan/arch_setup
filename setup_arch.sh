@@ -28,6 +28,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 
 # gnome settings
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,close"
+gsettings set org.gnome.desktop.peripherals.touchpad click-method 'areas'
 
 # update packages
 sudo pacman -Syu
