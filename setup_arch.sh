@@ -1,9 +1,16 @@
 #!/bin/sh
 
-# Setting gnome shortcuts
+# set gnome shortcuts
 gsettings set org.gnome.desktop.wm.keybindings close ['<Super>q']
 gsettings set org.gnome.desktop.wm.keybindings maximize ['<Super>Up']
 gsettings set org.gnome.desktop.wm.keybindings switch-applications ['<Super>Tab']
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward ['<Shift><Super>Tab']
 gsettings set org.gnome.desktop.wm.keybindings switch-windows ['<Alt>Tab']
 gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward ['<Shift><Alt>Tab']
+
+# set custom gnome shortcuts
+gsettings set org.gnome.settings-daemon.plugins.media-keys calculator ['<Super>r']
+gsettings set org.gnome.settings-daemon.plugins.media-keys home ['<Super>f']
+gsettings set org.gnome.settings-daemon.plugins.media-keys www ['<Super>i']
+gsettings set org.gnome.settings-daemon.plugins.media-keys email ['<Super>n']
+
