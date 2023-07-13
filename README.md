@@ -11,6 +11,12 @@ Gnome Shortcuts for window movement and close have to be ajusted. Also add Short
 - gnome-terminal: Super+t
 - shutdown: ctrl+Super+s
 
+# Gnome Settings
+- rightclick with area
+
+# Gnome Extensions
+- 
+
 # Packages
 Packages to install
 - zsh
@@ -29,3 +35,9 @@ Packages to install
 - Spotify
 - eog, gThumb
 - VLC
+
+# Theming
+- outdated gtk3 Apps: Adw (adw-gtk-theme)
+- Symbols: Papirus (papirus-icon-theme)
+- Zeiger: Bibata-Original-Classic (bibata-cursor-theme)
+- 
